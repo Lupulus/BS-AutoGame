@@ -1,0 +1,149 @@
+# Qt-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+.qmake.cache
+.qmake.stash
+
+# Qt Creator
+*.autosave
+*.orig
+.qtc_clangd/
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+Debug/
+Release/
+
+# C++ compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# MinGW specific
+*.exe.manifest
+*.rc
+
+# Visual Studio / MSVC
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# IDE files
+.vscode/
+.idea/
+*.cbp
+*.depend
+*.layout
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# OpenCV specific (if building OpenCV from source)
+opencv_build/
+opencv_contrib/
+
+# Log files
+*.log
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Application specific
+# Uncomment if you don't want to track these files
+# ressources/opencv_world*.dll
+# ressources/adb/
+
+# Configuration files with sensitive data
+config.ini
+settings.ini
+*.conf
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Conan
+conanfile.txt
+conandata.yml
+conanbuildinfo.*
+conan.lock
+
+# vcpkg
+vcpkg_installed/
+.vcpkg-root
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Clang
+.clangd/
+.cache/
+compile_flags.txt

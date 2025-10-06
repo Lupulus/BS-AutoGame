@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chelp</class>
+ <widget class="QWidget" name="chelp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>271</width>
+    <height>151</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-radius:5px;
+border: 1px solid;
+background-color: #1e1e1e;</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>271</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page_0">
+    <widget class="QGroupBox" name="groupBox_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>269</width>
+       <height>149</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_1 {
+    font-size: 14px;          /* Taille de la police */
+    color: darkorange;            /* Couleur du texte */
+    font-weight: bold;
+    border: 1px solid darkorange; /* Cadre blanc de 2px */
+    background-color: transparent; /* Fond transparent */
+    border-radius: 5px;      /* Optionnel : coins arrondis */
+}
+
+#groupBox_1::title {
+    color: darkorange;               /* Couleur du texte du titre */
+    font-weight: bold;          /* Gras pour le titre */
+}</string>
+     </property>
+     <property name="title">
+      <string>Aide Paramètres - BlueStacks</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>251</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout" rowstretch="1,0">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Le chemin de l'application **BlueStacks** est essentiel pour le lancement **automatique** ainsi que pour les différents Scénario en général.
+L'emplacement par **défault** de l'exécutable devrait être ici :</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::MarkdownText</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>24</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>24</height>
+          </size>
+         </property>
+         <property name="tabChangesFocus">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_1">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>269</width>
+       <height>149</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_2 {
+    font-size: 14px;          /* Taille de la police */
+    color: darkorange;            /* Couleur du texte */
+    font-weight: bold;
+    border: 1px solid darkorange; /* Cadre blanc de 2px */
+    background-color: transparent; /* Fond transparent */
+    border-radius: 5px;      /* Optionnel : coins arrondis */
+}
+
+#groupBox_2::title {
+    color: darkorange;               /* Couleur du texte du titre */
+    font-weight: bold;          /* Gras pour le titre */
+}</string>
+     </property>
+     <property name="title">
+      <string>Aide Paramètres - BlueStacks</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>251</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2" rowstretch="1">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Cette option permet d'activer le lancement **automatique** de l'application BlueStacks.  Si vous _désactivez_ cette option, vous devrez lancer l'application **manuellement**.</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::MarkdownText</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>269</width>
+       <height>149</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_3 {
+    font-size: 14px;          /* Taille de la police */
+    color: darkorange;            /* Couleur du texte */
+    font-weight: bold;
+    border: 1px solid darkorange; /* Cadre blanc de 2px */
+    background-color: transparent; /* Fond transparent */
+    border-radius: 5px;      /* Optionnel : coins arrondis */
+}
+
+#groupBox_3::title {
+    color: darkorange;               /* Couleur du texte du titre */
+    font-weight: bold;          /* Gras pour le titre */
+}</string>
+     </property>
+     <property name="title">
+      <string>Aide Paramètres - Jeux</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>251</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3" rowstretch="1">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Cette option permet d'activer le lancement **automatique** du jeux sélectionné sur BlueStacks. Si vous _désactivez_ cette option, vous devrez lancer le jeux **manuellement**. _Cocher_ cette case implique de lancer automatiquement l'application **BlueStacks** !</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::MarkdownText</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

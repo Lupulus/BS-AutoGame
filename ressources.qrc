@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>ressources/images/icon.ico</file>
+        <file>ressources/images/background1.jpg</file>
+        <file>ressources/images/Scena-airforce/Main_Game_Screen.png</file>
+        <file>ressources/images/Scena-airforce/Close_Button_Template-1.png</file>
+        <file>ressources/images/Scena-airforce/Close_Button_Template-2.png</file>
+        <file>ressources/images/Scena-airforce/Solo_Button.png</file>
+        <file>ressources/images/Scena-airforce/Back_Button_Template.png</file>
+        <file>ressources/images/Scena-airforce/PlaneAssist_RepublicF105_Template-1.png</file>
+        <file>ressources/images/Scena-airforce/PlaneAssist_RepublicF105_Template-2.png</file>
+        <file>ressources/images/Scena-airforce/PlaneMitsubichi-Mosquito_Template-1.png</file>
+        <file>ressources/images/Scena-airforce/PlaneMitsubichi-Mosquito_Template-2.png</file>
+        <file>ressources/images/Scena-airforce/PlaneSupport_ChainLightning_Template-1.png</file>
+        <file>ressources/images/Scena-airforce/PlaneSupport_ChainLightning_Template-2.png</file>
+        <file>ressources/images/Scena-airforce/Chargement_Template-1.png</file>
+        <file>ressources/images/Scena-airforce/AvioniqueMainScreen.png</file>
+        <file>ressources/images/Scena-airforce/UsedPlane_Template-1.png</file>
+        <file>ressources/images/Scena-airforce/SwitchAvion_Button_Template.png</file>
+        <file>ressources/images/Scena-airforce/Chapitre10MainScreen.png</file>
+        <file>ressources/images/Scena-airforce/Niv91MainScreen.png</file>
+        <file>ressources/images/Scena-airforce/Chargement_Template-2.png</file>
+        <file>ressources/images/Scena-airforce/Play_Button_Template.png</file>
+        <file>ressources/images/Scena-airforce/EndGame_Template-1.png</file>
+        <file>ressources/images/Scena-airforce/EndGame_Template-2.png</file>
+        <file>ressources/images/Scena-airforce/NeedPlaqueScreen_Template.png</file>
+    </qresource>
+    <qresource prefix="/adb">
+        <file>ressources/adb/adb.exe</file>
+        <file>ressources/adb/AdbWinApi.dll</file>
+        <file>ressources/adb/AdbWinUsbApi.dll</file>
+    </qresource>
+</RCC>
