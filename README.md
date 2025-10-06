@@ -186,17 +186,6 @@ L'application dispose d'un module de console de logs (`CLogConsole`) pour le dé
 4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 
-## 📝 Licence
-
-Ce projet est sous licence [LICENCE_TYPE]. Voir le fichier `LICENSE` pour plus de détails.
-
-## 📞 Support
-
-Pour toute question ou problème :
-- Ouvrez une issue sur GitHub
-- Consultez la documentation Qt : [doc.qt.io](https://doc.qt.io/)
-- Consultez la documentation OpenCV : [docs.opencv.org](https://docs.opencv.org/)
-
 ## 🔄 Versions
 
 - **Qt** : 6.8.0
